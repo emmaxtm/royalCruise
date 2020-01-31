@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stilovi.css">
+    </head>
+    <body>
+        <header>
+            
+            <a href="index2.html">Uloguj se</a>
+            <a href="index.html">Početna</a>
+        </header>
+        <div class="main">
+            <h1>PRIJAVITE SE ILI REGISTRUJTE I IZABERITE BROD KOJIM BISTE PUTOVALI!</h1>
+            <div class="forma-login">
+                <h3>Prijavite se:</h3>
+                    <form method="POST" action="log.php">
+                     Unesite e-mail:<br>
+                     <input type="email" name="email"><br>
+                     Unesite password:<br>
+                     <input type="password" name="sifra"><br>
+                     <input type="submit" name="dugme-log" value="Ulogujte se">
+                    </form>
+            </div>
+
+            <div class="forma-login">
+                <h3>Registrujte se:</h3>
+                <form method="POST" action="register.php"
+				enctype="multipart/form-data">
+                  Unesite ime:<br>
+                  <input type="text" name="ime"><br>
+                  Unesite prezime:<br>
+                  <input type="text" name="prezime"><br>
+                  Unesite e-mail:<br>
+                  <input type="email" name="email"><br>
+                  Unesite password:<br>
+                  <input type="password" name="sifra"><br>
+                  Ponovite password:<br>
+                  <input type="password" name="sifra2"><br>
+				  Unesite sliku za profil:<br>
+				  <input type="file" name="slika">
+                  Izaberite brod kojim želite da putujete:<br>
+                  <select name="izbor-broda">
+                      <option name="izbor-broda" value="1">1</option>
+                      <option name="izbor-broda" value="2">2</option>
+                      <option name="izbor-broda" value="3">3</option>
+                      <option name="izbor-broda" value="4">4</option>
+                  </select>
+                  <input type="submit" name="dugme-reg" value="Registrujte se">
+                </form>   
+            </div>
+            <h2>Naša flota:<br></h2>
+                <div class="brodovi">
+                    <img src="tropico.jpg"><p>br. broda <strong>1</strong><br>'Tropico',<br>kapacitet:1000 mesta</p>
+                    <img src="sparcle.jpg"><p>br. broda <strong>4</strong><br>'Sparcle',<br>kapacitet:800 mesta</p>
+                    <img src="pearl.jpg"><p>br. broda <strong>2</strong><br>'Pearl',<br>kapacitet:2000 mesta</p>
+                    <img src="crystal.jpg"><p>br. broda <strong>3</strong><br>'Crystal',<br>kapacitet:1500 mesta</p>
+                </div>
+            
+               
+            
+        </div>
+    </body>
+</html>

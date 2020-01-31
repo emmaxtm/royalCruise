@@ -1,0 +1,160 @@
+*{
+    margin: 0;padding: 0;
+}
+body,html{
+    background-image: url(pozadinap.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Bradley Hand ITC';font-weight: bold;
+}
+.content{
+	margin: 0px 150px 0px 150px;
+	padding: 150px 0px 150px 0px;
+   
+    color: antiquewhite;
+	text-shadow: 0px 0px 20px black;
+	margin-left: 20%;
+}
+.content p{
+    background: rgba(124, 127, 131,0.5);border-radius: 15px;
+}
+.brodovi{
+    display: flex;
+  background-color: beige;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.brodovi img{
+    margin: 10px;
+  width:130px;
+  height:170px;
+}
+.brodovi p{
+    font-family: 'Bradley Hand ITC';font-weight: bold;
+    color: rgb(39, 110, 110);
+    font-size: 19px;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 70px;
+	margin: 0;
+	letter-spacing: -3px;
+	text-shadow: 0px 0px 20px black;
+	color: white;
+}
+
+header{
+    background: rgba(119, 212, 166, 0.5);
+    height: 80px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 13px;
+}
+header a{
+    text-decoration: none;
+    color: antiquewhite;
+    float: right;
+    margin: 2%;
+}
+header a:hover{
+    text-shadow: 4px 4px silver;
+}
+.main{
+    background: rgba(186, 202, 194, 0.5);
+    color: antiquewhite;
+    font-size: 25px;
+    padding: 20px;
+    margin: 5%;
+    border-radius: 13px;
+}
+.parallax1{
+    background-image: url("des1.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    font-size: 30px;
+
+}
+.parallax2{
+    background-image: url("des2.jpg");
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+}
+.parallax3{
+    background-image: url("des3.jpg");
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+}
+.parallax4{
+    background-image: url("des4.jpg");
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+}
+.forma-login{
+    background: rgba(117, 216, 103, 0.5);
+    padding: 10px;
+    border: 11px;
+    margin: 5%;
+    color: antiquewhite;
+    font-size: 18px;
+}
+input[type=text]{
+    width: 50%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 7px;
+    box-shadow: 9px 9px 9px silver;
+}
+input[type=email]{
+    width: 50%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 7px;
+    box-shadow: 9px 9px 9px silver;
+}
+input[type=password]{
+    width: 50%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 7px;
+    box-shadow: 9px 9px 9px silver;
+}
+select{
+    width: 50%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 7px;
+    box-shadow: 9px 9px 9px silver;
+}
+input[type=submit]{
+    width: 110px;height: 50px;
+    padding: 10px;font-size: 16px;
+    color: chocolate;border-radius: 5px;
+    box-shadow: 5px 5px 5px silver;
+}
+.footer{
+    color: white;
+    background-color: #111;
+    padding: 10px 10px 10px 10px;
+    letter-spacing: 0px;
+    font-size: 14px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
